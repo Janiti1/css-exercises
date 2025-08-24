@@ -24,3 +24,41 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/*edit*/
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+.plant_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant-card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 1rem;
+  height: 200px;
+  width: 200px;
+}
+
+.plant-card img {
+  width: 150px;              /* O el tamaño que prefieras */
+  height: auto;
+  display: block;
+  margin: 0 auto;            /* Extra seguridad para centrar */
+}
+
+.text {
+  text-align: center;
+}
